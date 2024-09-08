@@ -1,75 +1,194 @@
-.container{
-width: 1152px;
-height: 700px;
-min-height: 100vh;
-border: 2px solid black;
-background-color: #370617;
-position: relative;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: center;
-
-
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.first-card{
 
-    width: 468px;
-    height: 160px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
    
-    background-color: #F48C06;
-
-    
-}
-.second-card{
-    width: 468px;
-    height: 160px;
-    
-    background-color: #F48C06;
 }
 
-.third-card{ 
-    width: 468px;
-    height: 160px;
+.container {
+    width: 1152px;
+    background-color: #370617;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    min-height: 100vh;
+    position: relative;
     
-    background-color: #F48C06;
-
 }
 
-.fourth-card{
+.first-card {
     width: 468px;
     height: 160px;
-    
     background-color: #F48C06;
-
+    display: flex;
+    justify-content: left; 
+    align-items: flex-end; 
+    border-radius: 6px;
+    gap: 20px;
+    position: relative; 
+    padding: 20px; 
 }
 
-.fifth-card{
-    width: 468px;
-    height: 160px;
-    
-    background-color: #F48C06;
+.card-box_1, .card-box_2, .card-box_3 {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
 }
 
-.sixth-card{
+
+.second-card {
     width: 468px;
     height: 160px;
+    background-color: #F48C06;
+    display: flex;
+    justify-content:center; 
+    align-items:stretch; 
+    border-radius: 6px;
+    gap: 20px;
+    position: relative; 
+    padding: 20px; 
+}
+
+.card-box_4, .card-box_5, .card-box_6 {
+    width: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+}
+.third-card {
+    width: 468px;
+    height: 160px;
+    background-color: #F48C06;
+    display: flex;
+    justify-content:flex-end; 
+    align-items:center;
+    border-radius: 6px;
+    gap: 20px;
+    position: relative; 
+    padding: 20px; 
+}
+.card-box_7, .card-box_8, .card-box_9{
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    
+}
+.fourth-card {
+    width: 468px;
+    height: 160px;
+    background-color: #F48C06;
+    display: flex;
+    justify-content:space-between; 
+    align-items:center; 
+    border-radius: 6px;
+    gap: 20px;
+    position: relative; 
+    padding: 20px; 
+}
+.card-box_10, .card-box_11{
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    
+}
+.card-box_12{
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    display: flex;
+    align-self: flex-end;
+}
+.fifth-card {
+    width: 468px;
+    height: 160px;
+    background-color: #F48C06;
+    display: flex;
+    justify-content:space-evenly; 
+    align-items:center; 
+    border-radius: 6px;
+    gap: 20px;
+    position: relative; 
+    padding: 20px; 
+    
+}
+.card-box_13,.card-box_15{
+    width: 78px;
+    
+    background-color: #9D0208;
+    border-radius: 5px;
+    display: flex;
+    align-self: stretch;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+        
+}
+.card-box_14{
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    display: flex;
+    align-self:center;
+    color: white;
+        font-size: 16px;
+        
+}
+.sixth-card {
+    width: 468px;
+    height: 160px;
+    background-color: #F48C06;
+    display: flex;
+    justify-content:space-around; 
+    align-items:center; 
+    border-radius: 6px;
+    gap: 20px;
+    position: relative; 
+    padding: 20px;
+}
+.card-box_16{
+  
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    display: flex;
+    align-self:center;
+    flex-grow: 1;
+    margin-left: 20px;
+    
    
-    background-color: #F48C06;
-}
-
-.card-box_1{
-width: 78px;
-height: 78px;
-background-color: #9D0208;
-align-items: center;
-}
-
-.card-box_2{
     
 }
-.card-box_3{
+.card-box_17{
+   
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    display: flex;
+    flex-grow: 2 ;
+   
+}
+
+.card-box_18{
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    display: flex;
+    align-self:center;
+    flex-grow: 1;
+    margin-right: 20px;
+    
 }
